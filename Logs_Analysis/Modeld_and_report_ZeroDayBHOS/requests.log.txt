@@ -1,0 +1,1417 @@
+
+[2025-10-19T15:07:40.210Z] GET / 304 4ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "none",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"250-caG4SO1jjoiNT4DTzi/srGOzhzE\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:07:44.824Z] GET /about 304 2ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"348-zd+kZKwENcXeLK6XugN1dxe5OPM\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:07:46.715Z] GET /login 302 2ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/about",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:07:46.723Z] GET /login?next=/orders 304 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/about",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"341-0tVmRucXgtt/a4y6Q3Ofd+0mq/w\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:08:05.576Z] POST /login?next=%2Forders 200 2612ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "55",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login?next=/orders",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "emil",
+  "password": ", $where: '1 == 1'"
+}
+
+[2025-10-19T15:08:22.093Z] POST /login 200 192ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "51",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login?next=%2Forders",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "emil",
+  "password": "$where: '1 == 1'"
+}
+
+[2025-10-19T15:08:36.202Z] POST /login 200 194ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "85",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login?next=%2Forders",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "emil",
+  "password": "' } ], $comment:'successful MongoDB injection'"
+}
+
+[2025-10-19T15:08:50.353Z] POST /login 200 248ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "47",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login?next=%2Forders",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "emil",
+  "password": "';sleep(5000);"
+}
+
+[2025-10-19T15:09:00.354Z] POST /login 200 246ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "38",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "emil",
+  "password": "[$ne]=1"
+}
+
+[2025-10-19T15:09:23.326Z] POST /login 200 277ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "38",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "emil",
+  "password": "|| 1==1"
+}
+
+[2025-10-19T15:09:36.054Z] POST /login 200 190ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "71",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "emil",
+  "password": "', $or: [ {}, { 'a':'a"
+}
+
+[2025-10-19T15:09:57.543Z] GET / 200 2ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:09:59.103Z] GET /login 302 0ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:09:59.107Z] GET /login?next=/orders 304 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"341-0tVmRucXgtt/a4y6Q3Ofd+0mq/w\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:10:05.331Z] GET /login?next=http://127.0.0.1:9090 304 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "none",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"355-PLHbNNPZ+VTw0DrcoQvNdNM/dBI\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:10:28.623Z] POST /login?next=http%3A%2F%2F127.0.0.1%3A9090 200 199ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "27",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login?next=http://127.0.0.1:9090",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "emil",
+  "password": "*^"
+}
+
+[2025-10-19T15:18:09.933Z] POST /login 302 1857ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "33",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login?next=http%3A%2F%2F127.0.0.1%3A9090",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "emil",
+  "password": "emil123456"
+}
+
+[2025-10-19T15:18:09.939Z] GET /orders 302 0ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/login?next=http%3A%2F%2F127.0.0.1%3A9090",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:18:09.945Z] GET /order 304 2ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/login?next=http%3A%2F%2F127.0.0.1%3A9090",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"637-id0EXbRejT9X55w9iSlP5f1bhak\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:18:14.745Z] GET /logout 302 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/order",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:18:14.749Z] GET /login 302 0ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/order",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:18:14.754Z] GET /login?next=/orders 200 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/order",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:18:21.127Z] GET /login?next=http://127.0.0.1:9090 304 0ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "none",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"355-PLHbNNPZ+VTw0DrcoQvNdNM/dBI\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:18:26.650Z] POST /login?next=http%3A%2F%2F127.0.0.1%3A9090 302 251ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "33",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login?next=http://127.0.0.1:9090",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "emil",
+  "password": "emil123456"
+}
+
+[2025-10-19T15:18:44.356Z] GET /login?next=/orders 304 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "none",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"341-0tVmRucXgtt/a4y6Q3Ofd+0mq/w\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:18:49.930Z] POST /login?next=%2Forders 200 201ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "36",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login?next=/orders",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "emil",
+  "password": "emil123456]"
+}
+
+[2025-10-19T15:18:57.099Z] POST /login 200 190ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "28",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login?next=%2Forders",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "emil",
+  "password": "admin"
+}
+
+[2025-10-19T15:19:06.011Z] POST /login 302 275ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "33",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "emil",
+  "password": "emil123456"
+}
+
+[2025-10-19T15:19:06.023Z] GET /orders 302 0ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/login",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:19:06.029Z] GET /order 304 2ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/login",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"637-id0EXbRejT9X55w9iSlP5f1bhak\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:19:15.618Z] GET /order/102 304 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/order",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"25c-Ea+44rVn/B7ANXwutT4n4fCoibA\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:19:18.637Z] GET /order/104 304 2ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/order",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"25c-lPy/WhRce+Kg65nU9mZSB0AYMLI\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:19:22.077Z] GET /order/106 304 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/order",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"261-Fq125scLyzlM7YntO9tKn1mxkII\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:19:23.476Z] GET /order/108 200 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/order",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:19:24.764Z] GET /order/110 200 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/order",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:19:27.107Z] GET /order/110 304 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/order",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"263-vLa1MO1y2iI2RfZV58PTO/9UGrA\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:19:30.318Z] GET /order/105 200 2ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "none",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:19:35.475Z] GET /order/104 304 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "none",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"25c-lPy/WhRce+Kg65nU9mZSB0AYMLI\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:19:39.313Z] GET /orders 302 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/order/105",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:19:39.321Z] GET /order 304 2ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/order/105",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"637-id0EXbRejT9X55w9iSlP5f1bhak\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:19:48.747Z] GET /logout 302 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/order",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:19:48.752Z] GET /login 302 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/order",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:19:48.755Z] GET /login?next=/orders 304 0ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/order",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"341-0tVmRucXgtt/a4y6Q3Ofd+0mq/w\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:19:52.216Z] GET / 304 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login?next=/orders",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"250-caG4SO1jjoiNT4DTzi/srGOzhzE\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:21:04.523Z] GET /about 304 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"348-zd+kZKwENcXeLK6XugN1dxe5OPM\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:21:06.732Z] GET / 304 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/about",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"250-caG4SO1jjoiNT4DTzi/srGOzhzE\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:22:12.865Z] GET /login 302 0ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:22:12.872Z] GET /login?next=/orders 304 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"341-0tVmRucXgtt/a4y6Q3Ofd+0mq/w\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:22:16.085Z] POST /login?next=%2Forders 200 195ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "29",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login?next=/orders",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "admin",
+  "password": "admin"
+}
+
+[2025-10-19T15:22:21.264Z] GET /register 200 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login?next=%2Forders",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:22:27.797Z] POST /register 200 2ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "51",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/register",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "admin",
+  "password": "admin",
+  "confirmPassword": "admin"
+}
+
+[2025-10-19T15:22:37.156Z] POST /register 200 638ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "57",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/register",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "admin",
+  "password": "admin123",
+  "confirmPassword": "admin123"
+}
+
+[2025-10-19T15:22:39.375Z] GET /login 302 0ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/register",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:22:39.382Z] GET /login?next=/orders 304 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/register",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"341-0tVmRucXgtt/a4y6Q3Ofd+0mq/w\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:22:43.393Z] POST /login?next=%2Forders 302 210ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "32",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login?next=/orders",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "admin",
+  "password": "admin123"
+}
+
+[2025-10-19T15:22:43.399Z] GET /orders 302 0ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/login?next=/orders",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:22:43.404Z] GET /order 200 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/login?next=/orders",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"637-id0EXbRejT9X55w9iSlP5f1bhak\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:23:23.468Z] GET /logout 302 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/order",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:23:23.476Z] GET /login 302 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/order",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:23:23.481Z] GET /login?next=/orders 304 0ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/order",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"341-0tVmRucXgtt/a4y6Q3Ofd+0mq/w\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:23:40.052Z] POST /login?next=%2Forders 302 207ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "32",
+  "origin": "http://localhost:3000",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/login?next=/orders",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: {
+  "username": "admin",
+  "password": "admin123"
+}
+
+[2025-10-19T15:23:40.060Z] GET /orders 302 0ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/login?next=/orders",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:23:40.064Z] GET /order 304 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "referer": "http://localhost:3000/login?next=/orders",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"1c4-ZlYUPt4U7pIoQN6atiHQDU1PNYk\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:23:44.123Z] GET /profile/3 200 220ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/order",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:23:49.191Z] GET /profile/2 403 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "none",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"298-CLDHmyx9ejhrxihw2T6LjgDIBiw\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:23:52.135Z] GET /profile/1 403 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "none",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:23:55.818Z] GET /profile/3 304 298ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "none",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"299-9bNvAkktW0aTLwt3HWelebFQZfY\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:23:57.520Z] GET /profile/2 403 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "none",
+  "sec-fetch-user": "?1",
+  "priority": "u=0, i"
+}
+Body: <empty>
+
+[2025-10-19T15:24:00.846Z] GET / 304 1ms
+Headers: {
+  "host": "localhost:3000",
+  "user-agent": "asd",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "connection": "keep-alive",
+  "referer": "http://localhost:3000/profile/2",
+  "cookie": "jwt=asd",
+  "upgrade-insecure-requests": "1",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-user": "?1",
+  "if-none-match": "W/\"250-caG4SO1jjoiNT4DTzi/srGOzhzE\"",
+  "priority": "u=0, i"
+}
+Body: <empty>
