@@ -15,7 +15,7 @@ The system identifies potential threats such as **NoSQL Injection**, **Open Redi
 - **JSON / Flow log processing**
 - **Joblib** for model storage and loading
 
-## ⚙️ Workflow
+##  Workflow
 1. Parse and preprocess raw log or flow data  
 2. Apply rule-based checks for known patterns  
 3. Compute similarity scores using transformer models  
